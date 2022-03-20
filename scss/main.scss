@@ -1,0 +1,62 @@
+@import "typography", "nav", "hero", "sections", "footer", "carousel";
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+a,
+a:visited {
+  color: #000;
+}
+
+.primary-btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.36rem;
+  font-weight: 400;
+  background-color: #e96188;
+  padding: 0.5rem 2rem;
+  border: 0.1rem solid #e96188;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+  &--big {
+    padding: 1rem 2.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  &:hover {
+    background-color: #df1f56;
+    border: 0.1rem solid #df1f56;
+  }
+  &:visited {
+    color: #fff;
+  }
+}
+
+.img-txt {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  background-color: #e96188;
+  padding: 0.5rem;
+  border: 0.1rem solid #e96188;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+main section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}

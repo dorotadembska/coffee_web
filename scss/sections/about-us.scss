@@ -1,0 +1,14 @@
+.about-us {
+  p {
+    padding: 2rem 6.6rem 4rem;
+  }
+  .half-box {
+    &__item {
+      h3 {
+        color: #e96188;
+        padding-left: 6.3rem;
+        text-align: left;
+      }
+    }
+  }
+}

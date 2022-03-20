@@ -1,0 +1,47 @@
+.articles {
+  display: flex;
+  background-color: #f8f8f8;
+  h3 {
+    padding-bottom: 2.5rem;
+  }
+  &__box-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #fff;
+    margin: 0 1.5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    position: relative;
+    .img-txt {
+      position: absolute;
+      top: 2rem;
+      left: 1rem;
+      font-weight: 300;
+    }
+    h3 {
+      padding-bottom: 0;
+      padding-top: 1rem;
+    }
+    p {
+      font-weight: 400;
+      margin: 0 1.5rem 3rem;
+    }
+    .primary-btn--big {
+      align-self: center;
+      position: absolute;
+      bottom: 2rem;
+    }
+    img {
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:hover {
+      img {
+        transform: scale(1.5) rotate(5deg);
+      }
+    }
+  }
+  &__box-image {
+    overflow: hidden;
+  }
+}

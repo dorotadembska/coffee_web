@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap");
 
 h1 {
   font-size: 5rem;
@@ -9,6 +9,10 @@ h1 {
 h3 {
   font-size: 3.2rem;
   font-weight: 400;
+  &.section-header {
+    text-align: center;
+    padding-bottom: 8rem;
+  }
 }
 
 h4 {
@@ -16,8 +20,13 @@ h4 {
   font-weight: 300;
 }
 
+h5 {
+  font-size: 1.36rem;
+  font-weight: 300;
+}
+
 p {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 2.5rem;

@@ -1,0 +1,19 @@
+.coffee-banner {
+  background-image: url("../images/caffe-banner_background.jpg");
+  background-position: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+  h4 {
+    color: #fff;
+    font-weight: 400;
+  }
+}

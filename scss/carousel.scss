@@ -1,0 +1,13 @@
+.carousel {
+  &__slide {
+    width: 100%;
+    padding:1rem 8rem;
+  }
+  .carousel__slide {
+    display: flex;
+    &-item {
+    flex: 1;
+    padding: 2rem;
+    }
+  }
+}

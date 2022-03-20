@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass": "node-sass ./scss/main.scss ./style/main.css -x --output-style compressed",
+    "sass:watch": "node-sass ./scss/main.scss ./style/main.css -x --output-style compressed --watch"
+  },
+  "dependencies": {
+    "node-sass": "latest"
+  }
+}
